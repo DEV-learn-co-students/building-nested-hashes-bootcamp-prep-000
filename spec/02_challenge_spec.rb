@@ -7,6 +7,6 @@ describe "#second_challenge" do
     expect(second_challenge[:capulet].keys).to eq([:patriarch, :matriarch, :heroine, :heroine_friends])
     expect(second_challenge[:montague].values).to eq([{}, {}, {}, []])
     expect(second_challenge[:capulet].values).to eq([{}, {}, {}, []])
-
+ 
   end
 end
